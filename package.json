@@ -1,0 +1,30 @@
+{
+  "name": "memeops-terminal",
+  "version": "0.1.0",
+  "description": "MemeOps Terminal - Desktop utility for meme token operations",
+  "main": "out/main/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "preview": "electron-vite preview"
+  },
+  "dependencies": {
+    "ethers": "^6.13.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.0",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "electron": "^30.0.0",
+    "electron-vite": "^2.1.0",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.1"
+  }
+}
+
