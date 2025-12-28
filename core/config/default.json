@@ -1,0 +1,22 @@
+{
+  "chain": {
+    "id": 56,
+    "name": "BNB Chain",
+    "rpcUrl": "https://bsc-dataseed.binance.org/"
+  },
+  "contracts": {
+    "fourMeme": {
+      "address": "",
+      "abi": []
+    },
+    "erc20": {
+      "abi": []
+    }
+  },
+  "tx": {
+    "confirmations": 1,
+    "timeout": 300000,
+    "retryAttempts": 3
+  }
+}
+
